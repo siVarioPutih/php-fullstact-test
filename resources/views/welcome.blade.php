@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <form method="POST" action="{{route('postFile')}}">
+                    <form method="POST" action="{{route('postFile')}}" enctype="multipart/form-data">
                         @csrf
                         <!--begin::Body-->
                         <div class="card-body">
